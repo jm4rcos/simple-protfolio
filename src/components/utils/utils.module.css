@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: none;
+    gap: 50px;
+}
+.frontEndWork{
+    height: 400px;
+    width: 400px;
+    background: blue;
+}
+.designWork{
+    height: 400px;
+    width: 400px;
+    background: green;
+}
+.illustrationWork{
+    height: 400px;
+    width: 400px;
+    background: red;
+}

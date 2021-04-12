@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 60px;
+}
+.card{
+    margin-bottom: 50px;
+}
+
+.title{
+    font-size: 30px;
+    color: #4B37B8;
+    font-weight: 600;
+    position: relative;
+    margin-right: 100px;
+}
+.title:before{
+    content: '';
+    height: 4px;
+    width: 138px;
+    background: #4B37B8;
+    position: absolute;
+    top: 45px;
+}
+.selectBox {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.frontEndBox, .designBox, .illustrationBox{
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    transition: .2s;
+}
+.descriptionFrontEnd, .descriptionDesign, .descriptionIllustration{
+    position: absolute;
+    bottom: 10px;
+    font-weight: 600;
+}

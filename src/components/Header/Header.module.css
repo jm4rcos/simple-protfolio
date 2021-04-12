@@ -11,7 +11,7 @@
 
     width: 100%;
     
-    margin-bottom: 230px;
+    margin-bottom: 200px;
     z-index: 8;
 }
 .container .greeting{
@@ -125,7 +125,7 @@
 @media(max-width: 660px){
     .container{
         width: 100%;
-        margin-bottom: 300px;
+        margin-bottom: 250px;
     }
     .simpleText{
         font-size: 14px;

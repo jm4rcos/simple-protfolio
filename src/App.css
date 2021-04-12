@@ -6,17 +6,17 @@
 }
 html{
     scroll-behavior: smooth;
+    
 }
 
 .App{
-    width: 100vw;
+    width: 95vw;
     display: grid;
     place-items: center;
     /* scroll-snap-type: mandatory; */
 }
 nav{
     width: 100%;
-
     padding: 40px 40px;
     display: flex;
     justify-content: space-between;
@@ -55,7 +55,4 @@ nav .github:visited{
 }
 nav ul a:nth-child(1){
     color: #7562E0;
-}
-nav .links{
-    padding-right: 40px;
 }

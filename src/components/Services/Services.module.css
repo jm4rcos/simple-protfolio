@@ -3,14 +3,14 @@
     padding: 0;
 }
 .container{
-    border: 2px dotted;
     display: flex;
     flex-direction: column;
-    border: 2px dotted;
     width: 100%;
     justify-content:center;
     text-align: center;
     align-items: center;
+    margin-bottom: 150px;
+    margin-top: 60px;
 }
 .whatIdo{
     font-weight: 600;
@@ -21,35 +21,37 @@
     background: none;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 .code{
-    width: 109px;
-    height: 73px;
+    width: 59px;
 }
 
 .ui{
-    width: 150px;
-    height: 80px;
+    width: 80px;
 }
 .logo{
-    width: 140px;
+    width: 80px;
     height: 73px;
 }
 
 .codeBG{
     background: linear-gradient(317.45deg, #FF93DA 17.62%, #C275FF 83.37%);
-    
+    margin-bottom: 20px;
 }
 .uiBG{
     background: linear-gradient(317.45deg, #00FFE0 17.62%, #00B2FF 83.37%);
+    margin-bottom: 20px;
 }
 .logoBG{
     background: linear-gradient(317.45deg, #FFF0BC 17.62%, #FFC88F 55.58%);
+    margin-bottom: 20px;
 }
 .codeBG, .uiBG, .logoBG{
-    width: 160px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -57,9 +59,35 @@
 
     z-index: 100;
 }
-.codeCard{
+.codeCard, .uiCard, .logoCard{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.cardTxt{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 33px;
+
+    color: #757575;
 }
 
+@media(max-width: 1050px){
 
+}
+
+@media(max-width: 700px){
+    .services{
+        flex-direction: column;
+    }
+}
+
+.title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 52px;
+
+    color: #000000;
+}
