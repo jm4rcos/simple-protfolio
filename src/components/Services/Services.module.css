@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px dotted;
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted;
+    width: 100%;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+}
+.whatIdo{
+    font-weight: 600;
+    font-size: 30px;
+    color: #4B37B8;
+}
+.services{
+    background: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.code{
+    width: 109px;
+    height: 73px;
+}
+
+.ui{
+    width: 150px;
+    height: 80px;
+}
+.logo{
+    width: 140px;
+    height: 73px;
+}
+
+.codeBG{
+    background: linear-gradient(317.45deg, #FF93DA 17.62%, #C275FF 83.37%);
+    
+}
+.uiBG{
+    background: linear-gradient(317.45deg, #00FFE0 17.62%, #00B2FF 83.37%);
+}
+.logoBG{
+    background: linear-gradient(317.45deg, #FFF0BC 17.62%, #FFC88F 55.58%);
+}
+.codeBG, .uiBG, .logoBG{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 100;
+}
+.codeCard{
+    display: flex;
+    flex-direction: column;
+}
+
+
