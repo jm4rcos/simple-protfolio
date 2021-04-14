@@ -7,8 +7,8 @@ export default function Navbar(){
             <ul>
                 <a href='Home'>HOME</a>
                 <a href='#Works'>WORKS</a>
-                <a href='#'>ABOUT</a>
-                <a href='#'>CONTACT</a>
+                <a href='#About'>ABOUT</a>
+                <a href='#Contact'>CONTACT</a>
             </ul>
             <div className='links'>
                 <a href='#'><FontAwesomeIcon icon={faGithub} className='github'/></a>

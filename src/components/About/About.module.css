@@ -1,0 +1,37 @@
+.container{
+    border: 2px dotted limegreen;
+    padding-left: 40px;
+    position: relative;
+    background: none;
+    z-index: 10;
+}
+.about{
+    font-weight: 600;
+    font-size: 30px;
+    color: #4B37B8;
+
+    margin-bottom: 50px;
+    position: relative;
+}
+.about:before{
+    content:'';
+    position: absolute;
+    height: 4px;
+    width: 0%;
+    background: #4B37B8;
+    transition: .5s;
+    top: 38px;
+    border-radius: 5px;
+}
+.about:hover:before{
+    width: 100%;
+}
+.txtImg{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.text{
+    font-weight: 600;
+    line-height: 35px;
+    color: #818181;
+}

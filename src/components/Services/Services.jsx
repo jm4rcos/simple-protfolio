@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState }from 'react'
 import codeSVG from '../../assets/codeSVG.svg'
 import uiSVG from '../../assets/uiSVG.svg'
 import logoSVG from '../../assets/logoSVG.svg'
@@ -13,7 +13,15 @@ function Services() {
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.whatIdo}>What I do</h1>
+            <h1 className={styles.whatIdo}>
+                <span>W</span>
+                <span>h</span>
+                <span>a</span>
+                <span style={{marginRight:'10px'}}>t</span>
+                <span style={{marginRight:'10px'}}>I</span>
+                <span>D</span>
+                <span>o</span>
+            </h1>
             
             <div className={styles.services}>
                 <div className={styles.codeCard}>

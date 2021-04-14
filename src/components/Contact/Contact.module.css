@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+}
+h1{
+    
+}
+.contactField{
+    border: 2px dotted green;
+    display: flex;
+    flex-direction: column;
+    padding: 26px 20px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.inputField{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #7562E0;
+    outline: none;
+    width: 100%;
+    margin-bottom: 30px;
+}

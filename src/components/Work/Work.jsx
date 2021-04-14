@@ -49,7 +49,6 @@ function Work(){
         setFontColorIllustration('#656565')
 
         handleFrontEnd()
-        
     }
 
     const [backgroundDesign, setBackgroundDesign] = useState('#E6E6F2')

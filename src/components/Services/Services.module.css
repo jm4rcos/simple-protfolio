@@ -17,6 +17,42 @@
     font-size: 30px;
     color: #4B37B8;
 }
+
+.whatIdo span{
+    animation: jump .8s infinite;
+    position: relative;
+}
+
+@keyframes jump{
+    0%, 100%{
+        top: 0px;
+    }
+    50%{
+        top: -6.5px;
+    }
+}
+.whatIdo span:nth-child(1){
+    animation-delay: .1s;
+}
+.whatIdo span:nth-child(2){
+    animation-delay: .2s;
+}
+.whatIdo span:nth-child(3){
+    animation-delay: .3s;
+}
+.whatIdo span:nth-child(4){
+    animation-delay: .4s;
+}
+.whatIdo span:nth-child(5){
+    animation-delay: .5s;
+}
+.whatIdo span:nth-child(6){
+    animation-delay: .6s;
+}
+.whatIdo span:nth-child(7){
+    animation-delay: .7s;
+} 
+
 .services{
     background: none;
     width: 100%;
@@ -27,7 +63,9 @@
 }
 .code{
     width: 59px;
+    position: relative;
 }
+
 
 .ui{
     width: 80px;
@@ -40,14 +78,19 @@
 .codeBG{
     background: linear-gradient(317.45deg, #FF93DA 17.62%, #C275FF 83.37%);
     margin-bottom: 20px;
+    cursor: pointer;
 }
+
+
 .uiBG{
     background: linear-gradient(317.45deg, #00FFE0 17.62%, #00B2FF 83.37%);
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .logoBG{
     background: linear-gradient(317.45deg, #FFF0BC 17.62%, #FFC88F 55.58%);
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .codeBG, .uiBG, .logoBG{
     width: 100px;
@@ -56,6 +99,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .2s;
 
     z-index: 100;
 }

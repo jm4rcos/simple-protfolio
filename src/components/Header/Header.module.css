@@ -22,6 +22,8 @@
     padding: 0px 40px;
     width: 570px;
     background: none;
+
+    animation: greetingAnimation 1.5s ease-out
 }
 .container .greeting .simpleText{
     font-weight: 600;
@@ -74,25 +76,49 @@
     display: flex;
     padding-right: 60px;
     background: none;
+    align-items: center;
+    justify-content: center;
+    top: -40px;
 }
 
-.mobileImg{
+/* .mobileImg{
     position: relative;
-    top: -50px;
-    width: 201.21px;
-    height: 332px;
+    top: -20px;
+    width: 251.21px;
+    height: 382px;
     z-index: 10;
-}
-.webImg{
+} */
+.characterBG{
     position: relative;
-    top: 30px;
-    width: 408px;
-    height: 200px;
-    z-index: 9;
+    right: 10px;
+    width: 350px;
+    height: 350px;
+    z-index: 10;
+    margin-left: 80px;
+    background: #7562E0;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.webImg, .mobileImg{
-    transform: scale(1.5);
-    transition: .5s;
+.body{
+    position: absolute;
+    width: 204px;
+    height: 285px;
+    top: 80px;
+}
+.eye{
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+.hair{
+    position: absolute;
+    width: 165px;
+    top: 40px;
+    justify-content: center;
+    left: 85px;
 }
 
 
@@ -134,20 +160,6 @@
 
 
 
-.bgPurple{
-    position: absolute;
-    width: 210.08px;
-    height: 210.08px;
-    right: 0;
-    top: 200px;
-
-    background: #B5A8FF;
-    filter: blur(50px);
-    border-radius: 10px;
-    transform: rotate(75.68deg);
-    z-index: -1;
-}
-
 .bgGreen{
     left: 50%;
     transform: translate(-50%);
@@ -160,7 +172,7 @@
     filter: blur(50px);
     border-radius: 10px;
     transform: rotate(-16.14deg);
-    z-index: -1;
+    z-index: 1;
 }
 .bgBlue{
     position: absolute;
@@ -173,4 +185,17 @@
     filter: blur(63px);
     border-radius: 10px;
     transform: rotate(142.43deg);
+}
+
+/* Animations */
+
+@keyframes greetingAnimation{
+    0%{
+        opacity: 0;
+        left: -50px;
+    }
+    100%{
+        opacity: 1;
+        left: 0px;
+    }
 }

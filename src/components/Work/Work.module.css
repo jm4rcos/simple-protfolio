@@ -39,8 +39,3 @@
     position: relative;
     transition: .2s;
 }
-.descriptionFrontEnd, .descriptionDesign, .descriptionIllustration{
-    position: absolute;
-    bottom: 10px;
-    font-weight: 600;
-}

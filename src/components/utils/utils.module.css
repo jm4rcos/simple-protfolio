@@ -3,19 +3,23 @@
     grid-template-columns: repeat(3, 1fr);
     background: none;
     gap: 50px;
+    margin-bottom: 100px;
 }
 .frontEndWork{
     height: 400px;
     width: 400px;
-    background: blue;
+    background: #ff008c;
+    border-radius: 10px;
 }
 .designWork{
     height: 400px;
     width: 400px;
     background: green;
+    border-radius: 10px;
 }
 .illustrationWork{
     height: 400px;
     width: 400px;
     background: red;
+    border-radius: 10px;
 }
