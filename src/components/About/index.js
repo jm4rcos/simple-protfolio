@@ -1,8 +1,11 @@
 import React from 'react'
 
 import styles from './About.module.css'
+import imgSVG from '../../assets/coding.svg'
 
 export default function About(){
+
+    const img = imgSVG
     return(
         <div className={styles.container} id='About'>
             <div style={{justifyContent:'flex-end', display:'flex'}}>
@@ -13,7 +16,9 @@ export default function About(){
             
             <div className={styles.txtImg}>
                 <h3 style={{marginTop:'60px'}} className={styles.text}>With a focus on branding and UI / Web, I strive to create usable and polished products through passionate and deliberate design.</h3>
-                <div style={{marginTop:'0px', height:'300px', width:'100%', background:'blue'}}></div>
+                <div style={{position:'relative',overflow: 'hidden', borderRadius:'50%',marginTop:'0px', height:'300px', width:'300px', background:'none'}}>
+                    <img src={img} style={{left:'0px', right:'0px', position: 'absolute', top:'0px', bottom:'0px'}}/>
+                </div>
             </div>
         </div>
     )
