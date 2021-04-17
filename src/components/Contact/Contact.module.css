@@ -13,9 +13,6 @@ h1{
     
 }
 .contactField{
-    border: 2px dotted green;
-    display: flex;
-    flex-direction: column;
     padding: 26px 20px;
     width: 400px;
     margin-top: 20px;
@@ -29,4 +26,5 @@ h1{
     outline: none;
     width: 100%;
     margin-bottom: 30px;
+    font-size: 1em;
 }

@@ -89,28 +89,32 @@ function Work(){
                 <div className={styles.selectBox}>
 
                     <div className={styles.frontEndBox} 
-                        style={{background:`${backgroundFrontEnd}`, height:'100px', width:'100px', borderRadius: '.2rem', display: 'flex', flexDirection:'column', justifyContent:'center', cursor:'pointer'}}
+                        style={{background:`${backgroundFrontEnd}`, height:'100px', width:'100px', borderRadius: '.2rem', display: 'flex', justifyContent:'center', cursor:'pointer', alignItems:'center'}}
                         onClick={changeBGFrontEnd}>
+                        
 
                         <label className={styles.descriptionFrontEnd} style={{cursor:'pointer', color:`${fontColorFrontEnd}`}}>Front End</label>
                     </div>
 
                     <div className={styles.designBox} 
-                        style={{background:`${backgroundDesign}`, height:'100px', width:'100px', borderRadius: '.2rem', display: 'flex', flexDirection:'column', justifyContent:'center', cursor:'pointer'}}
+                        style={{background:`${backgroundDesign}`, height:'100px', width:'100px', borderRadius: '.2rem', display: 'flex', justifyContent:'center', cursor:'pointer', alignItems:'center'}}
                         onClick={changeBGDesign}>
 
                         <label className={styles.descriptionDesign} style={{cursor:'pointer', color:`${fontColorDesign}`}}>Design</label>
                     </div>
 
                     <div className={styles.illustrationBox} 
-                        style={{background:`${backgroundIllustration}`, height:'100px', width:'100px', borderRadius: '.2rem', display: 'flex', flexDirection:'column', justifyContent:'center', cursor:'pointer'}}
+                        style={{background:`${backgroundIllustration}`, height:'100px', width:'100px', borderRadius: '.2rem', display: 'flex', justifyContent:'center', cursor:'pointer', alignItems:'center'}}
                         onClick={changeBGIllustration}>
 
                         <label className={styles.descriptionIllustration} style={{cursor:'pointer', color:`${fontColorIllustration}`}}>Branding</label>
                     </div>
 
                 </div>
-                    {frontEndWorks === 1 &&(
+                    
+            </div>
+        <div>
+        {frontEndWorks === 1 &&(
                         <FrontEndWorks/>
                     )}
                     {designWorks === 1 &&(
@@ -119,8 +123,7 @@ function Work(){
                     {illustrationWorks === 1 &&(
                         <IllustrationWorks/>
                     )}
-                </div>
-
+        </div>
             
             
         </div>

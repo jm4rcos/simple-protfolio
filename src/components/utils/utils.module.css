@@ -1,25 +1,29 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     background: none;
     gap: 50px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    float: right;
 }
 .frontEndWork{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     background: #ff008c;
     border-radius: 10px;
 }
 .designWork{
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     background: green;
     border-radius: 10px;
 }
 .illustrationWork{
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     background: red;
     border-radius: 10px;
+}
+.title{
+
 }

@@ -16,8 +16,8 @@ export default function About(){
             
             <div className={styles.txtImg}>
                 <h3 style={{marginTop:'60px'}} className={styles.text}>With a focus on branding and UI / Web, I strive to create usable and polished products through passionate and deliberate design.</h3>
-                <div style={{position:'relative',overflow: 'hidden', borderRadius:'50%',marginTop:'0px', height:'300px', width:'300px', background:'none'}}>
-                    <img src={img} style={{left:'0px', right:'0px', position: 'absolute', top:'0px', bottom:'0px'}}/>
+                <div style={{overflow: 'hidden', borderRadius:'50%',marginTop:'0px', height:'300px', width:'300px', background:'#7562E0', display:'flex',alignItems:"center", justifyContent:'center', position:'absolute', bottom:'0px', right:'0px'}}>
+                    <img src={img} style={{backgroundPosition:'center', backgroundRepeat:'no-repeat', backgroundSize:'cover', height: '250px', width:'100%'}} draggable={false}/>
                 </div>
             </div>
         </div>
