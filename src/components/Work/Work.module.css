@@ -18,12 +18,17 @@
     margin-right: 100px;
 }
 .title:before{
-    content: '';
-    height: 4px;
-    width: 138px;
-    background: #4B37B8;
+    content:'';
     position: absolute;
+    height: 4px;
+    width: 0%;
+    background: #4B37B8;
+    transition: .5s;
     top: 45px;
+    border-radius: 5px;
+}
+.title:hover:before{
+    width: 140px;
 }
 .selectBox {
     background: none;
