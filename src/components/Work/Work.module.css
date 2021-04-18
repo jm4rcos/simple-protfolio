@@ -34,9 +34,7 @@
     background: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    /* float: right; */
-    
+    justify-content: center;    
 }
 .frontEndBox, .designBox, .illustrationBox{
     margin-left: 20px;
@@ -48,4 +46,6 @@
     transition: .2s;
     font-size: 1em;
     font-weight: bold;
+/*     box-shadow: 0px 0px 30px 5px hsl(240, 100%, 91%);
+ */
 }
