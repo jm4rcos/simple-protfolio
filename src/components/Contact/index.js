@@ -48,7 +48,9 @@ export default function Contact(){
                 ref={textareaRef}
                 style={{ marginBottom:'20px', borderRadius: '5px', height: '150px', outline:'none', border: '2px solid #7562E0', marginTop:'10px', fontSize:'1em', width:'100%'}}/>
                 
-                <button type='submit'
+                <button 
+                className={styles.btn}
+                type='submit'
                 style={{cursor:'pointer',width:'80px', padding:"10px 10px", background:'#7562E0', color:'#fff', border:'none', outline:'none', borderRadius: '5px'}}
                 >Send</button>
             </div>

@@ -1,7 +1,9 @@
 import covidtrackerImg from './images/development/covid.png'
 import weatherApp from './images/development/weather.png'
 
-import coding from '../../assets/coding.svg'
+import maragogiApp from './images/design/maragogiAPP.gif'
+
+import codingSVG from '../../assets/coding.svg'
 
 export const frontEnd = [
     {
@@ -23,11 +25,19 @@ export const frontEnd = [
     
 ]
 
-export const design = []
+export const design = [
+    {
+        title:'City App',
+        img: maragogiApp,
+        
+        moreInfo:'Created with figma'
+    },
+
+]
 
 export const illustration = [
     {
-        img: {coding},
+        img: codingSVG,
         moreInfo:'Created with Adobe Illustrator'
     },
 ]

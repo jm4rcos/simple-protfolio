@@ -4,11 +4,8 @@
     width: 100%;
     padding-left: 60px;
     height: auto;
-    margin-bottom: 50px;
 }
-.card{
-    margin-bottom: 0px;
-}
+
 
 .title{
     font-size: 30px;
@@ -46,6 +43,6 @@
     transition: .2s;
     font-size: 1em;
     font-weight: bold;
-    box-shadow: 0px 0px 30px 5px hsl(240, 83%, 89%);
-
+/*     box-shadow: 0px 0px 20px 2px #d6dbfd; */
 }
+
