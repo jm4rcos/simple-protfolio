@@ -33,19 +33,13 @@ export const FrontEndWorks =() =>{
 
 export const DesignWorks = () => {
     return(
-        <div className={styles.container}>
+        <div className={styles.containerDesign}>
             {design.map((project, id) => {
-                const {title, img, moreInfo} = project
+                const {title, img, desc} = project
                 return(<div key={id} style={{display: 'flex'}} className={styles.divDesign}>
                         <div className={styles.designWork}>
+                            <h3>{title}</h3>
                             <img src={img} draggable={false} className={styles.imgDesign}/>
-                        </div>
-                        <div style={{width: '240px',color:'#656565',display: 'block', background: 'none', marginRight:'0px', position:'relative'}}>
-                            <div style={{marginLeft: '20px'}}>
-                            <div style={{bottom:'0px', position:'absolute'}}>
-                                <p>{moreInfo}</p>
-                            </div>
-                            </div>
                         </div>
                 </div>)
             })}

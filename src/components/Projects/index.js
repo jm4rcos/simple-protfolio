@@ -1,8 +1,12 @@
+// Development projects
 import covidtrackerImg from './images/development/covid.png'
 import weatherApp from './images/development/weather.png'
 
+//Design Projects
 import maragogiApp from './images/design/maragogiAPP.gif'
+import tideTime from './images/design/tidetime.png'
 
+//Illustration Projects
 import codingSVG from '../../assets/coding.svg'
 
 export const frontEnd = [
@@ -30,8 +34,15 @@ export const design = [
         title:'City App',
         img: maragogiApp,
         
-        moreInfo:'Created with figma'
+        desc: 'Designed a City App with Tide time',
     },
+
+    {
+        title:'Tide Time App',
+        img: tideTime,
+
+        desc: 'Tide time App'
+    }
 
 ]
 

@@ -1,5 +1,4 @@
 .container{
-    border: 2px dotted limegreen;
     padding-left: 40px;
     position: relative;
     background: none;
@@ -35,5 +34,7 @@
     font-weight: 600;
     line-height: 35px;
     color: #818181;
+    font-size: 2em;
+    letter-spacing: 2px;
 }
 
