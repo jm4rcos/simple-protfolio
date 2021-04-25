@@ -17,7 +17,7 @@ export default function About(){
                             My biography is not as fascinating as the moment in which I create.</h3>
             <div className={styles.txtImg}>
                 <h3 style={{marginTop:'60px'}} className={styles.text}>
-                    With a focus on branding and UI / Web, I strive to create usable and polished products through passionate and deliberate design.
+                    With a focus on Front End, I strive to create usable and polished products through passionate and deliberate design.
                     
                 </h3>
                 <div style={{overflow: 'hidden', borderRadius:'50%',marginTop:'0px', height:'300px', width:'300px', background:'#7562E0', display:'flex',alignItems:"center", justifyContent:'center', position:'absolute', bottom:'0px', right:'0px'}}>

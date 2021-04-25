@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from './utils.module.css'
-import {frontEnd, design, illustration} from '../Projects'
+import {frontEnd, design} from '../Projects'
 
 export const FrontEndWorks =() =>{
 
@@ -45,23 +45,4 @@ export const DesignWorks = () => {
             })}
         </div>
     )
-}
-
-export const IllustrationWorks = () => {
-    return(
-        <div className={styles.container}>
-            {illustration.map((project, id) => {
-                const {img, moreInfo} = project
-                return(<div key={id} style={{display: 'grid', gap:'0px', placeItems:'center', boxShadow:'0px 0px 20px 10px #e3e6fa'}} className={styles.divIllustration}>
-                        <div className={styles.illustrationWork}>
-                            <img src={img} draggable={false} className={styles.imgIllustration}/>
-                        </div>
-                        <div style={{width: '80%', height:'auto',color:'#656565', background: 'none', position:'relative', textAlign:'center'}}>
-                            <p>{moreInfo}</p>
-                        </div>
-                    </div>
-                )
-            })}
-        </div>
-        )
 }

@@ -46,11 +46,3 @@ export const design = [
 
 ]
 
-export const illustration = [
-    {
-        img: codingSVG,
-        moreInfo:'Created with Adobe Illustrator'
-    },
-]
-
-
