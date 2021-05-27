@@ -1,11 +1,9 @@
 ## Simple Portfolio
 <br>
 
-Just to play with ReactJS :) Enjoy :play:
-
 ---
 <br>
 
-#Demo => :eyes:
+# Demo :eyes:
 
 https://simple-portfolio-reactjs.netlify.app/
